@@ -114,9 +114,14 @@ Run the script with different window sizes and verify the output against expecte
 
 ##  Considerations
 
-Input Format: The script assumes each event is stored as a separate JSON object in a new line. If your input format differs, modifications may be required in the read_events function.
-Error Handling: The script includes basic error handling for JSON decoding errors. Further error scenarios should be considered based on your use case.
-Performance: Evaluate performance implications, especially for large input files or frequent calculations.
+### Input Format: 
+The script assumes each event is stored as a separate JSON object in a new line. If your input format differs, modifications may be required in the read_events function.
+
+### Error Handling: 
+The script includes basic error handling for JSON decoding errors. Further error scenarios should be considered based on your use case.
+
+### Performance: 
+Evaluate performance implications, especially for large input files or frequent calculations.
 
 
 
