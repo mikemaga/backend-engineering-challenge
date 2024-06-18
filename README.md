@@ -24,8 +24,23 @@ This project calculates the moving average delivery time from events stored in a
 git clone https://github.com/your_username/your_repository.git
 cd your_repository
 ```
+### Step 2: Create and activate a virtual environment
 
-### Step 2: Install dependencies
+For Unix/Linux/macOS
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+For Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### Step 3: Install dependencies
 
 ```bash
 pip install -r requirements.txt
